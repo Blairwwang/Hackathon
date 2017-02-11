@@ -53,20 +53,7 @@ class rainState(object):
  
  
 def getData():
-    
-    states = [("Washington",10),("Montana",20),("Oregon",30),("Idaho",10),
-            ("Wyoming",10),("Nevada",20),("Utah",80),("California",60),("Colorado",30),
-            ("Arizona",70),("New Mexico",90),("Texas",40),("Oklahoma",30),("Kansas",10),
-            ("Nebraska",20),("South Dakota",10),("North Dakota",20),("Minnesota",20),
-            ("Iowa",30),("Missouri",10),("Arkansas",30),("Mississippi",10),("Wisconsin",20),
-            ("Illinois",20),("Tennessee", 60),("Alabama",20),("Georgia",20),("Kentucky",40),
-            ("Ohio",10),("West Virginia",40),("Virginia",20),("North Carolina", 20),("Indiana",60),
-            ("South Carolina", 30),("Florida",80),("Pennsylvania",40),("Maryland",40),
-            ("New York", 40), ("Connecticut",40),("Massachusetts",50),("New Hampshire",30),
-            ("Maine", 30),("Rhode Island",30),("New Jersey",20),("Delaware",30),("Vermont",50),
-            ("Louisiana",60),("Michigan",30),("Hawaii",10),("Alaska",10)]
-    
-    #states = statePrecip()
+    states = statePrecip()
     print(len(states))
     return states
  
